@@ -1,0 +1,32 @@
+{
+  "name": "@ghasemkiani/polygon",
+  "version": "1.0.0",
+  "description": "Polygon blockchain utility",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghasemkiani/polygon.git"
+  },
+  "keywords": [
+    "blockchain",
+    "polygon"
+  ],
+  "author": "Ghasem Kiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghasemkiani/polygon/issues"
+  },
+  "homepage": "https://github.com/ghasemkiani/polygon#readme",
+  "dependencies": {
+    "@ghasemkiani/base": "github:ghasemkiani/base",
+    "@ghasemkiani/polygonscan-api": "github:ghasemkiani/polygonscan-api",
+    "@ghasemkiani/ethereum": "github:ghasemkiani/ethereum",
+    "bignumber.js": "^9.0.1",
+    "isomorphic-fetch": "^3.0.0",
+    "web3": "^1.3.4"
+  }
+}
