@@ -1,6 +1,6 @@
 {
   "name": "@ghasemkiani/polygon",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Polygon blockchain utility",
   "type": "module",
   "main": "index.js",
@@ -23,10 +23,10 @@
   "homepage": "https://github.com/ghasemkiani/polygon#readme",
   "dependencies": {
     "@ghasemkiani/base": "github:ghasemkiani/base",
-    "@ghasemkiani/polygonscan-api": "github:ghasemkiani/polygonscan-api",
     "@ghasemkiani/ethereum": "github:ghasemkiani/ethereum",
-    "bignumber.js": "^9.0.1",
+    "@ghasemkiani/polygonscan-api": "github:ghasemkiani/polygonscan-api",
+    "bignumber.js": "^9.0.2",
     "isomorphic-fetch": "^3.0.0",
-    "web3": "^1.3.4"
+    "web3": "^1.7.3"
   }
 }
