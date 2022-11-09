@@ -47,7 +47,9 @@ cutil.extend(Util.prototype, {
 		"GHST": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
 	},
 	tokenDecimals: {},
-	contractProxies: {},
+	contractProxies: {
+		"0xc2132D05D31c914a87C6611C10748AEb04B58e8F": "0x7FFB3d637014488b63fb9858E279385685AFc1e2",
+	},
 });
 
 const util = new Util();
