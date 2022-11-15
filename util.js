@@ -6,6 +6,7 @@ import {Util as UtilEth} from "@ghasemkiani/ethereum";
 class Util extends UtilEth {}
 cutil.extend(Util.prototype, {
 	tok: "MATIC",
+	chainId: 137,
 	// DEFAULT_URL: "https://rpc-mainnet.maticvigil.com:443",
 	DEFAULT_URL: "https://polygon-rpc.com/",
 	NODE_KEY: "POLYGON_NODE",

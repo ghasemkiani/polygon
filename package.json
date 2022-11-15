@@ -1,6 +1,6 @@
 {
 	"name": "@ghasemkiani/polygon",
-	"version": "1.1.5",
+	"version": "1.1.6",
 	"description": "Polygon blockchain utility",
 	"type": "module",
 	"main": "index.js",
